@@ -68,12 +68,12 @@ C:\Users\你的用户名\AppData\Local\AnthropicClaude\claude.exe
 
 **个人账号：**
 ```
-C:\Users\你的用户名\AppData\Local\AnthropicClaude\claude.exe --user-data-dir="C:\Users\你的用户名\AppData\Roaming\Claude-Personal"
+C:\Users\你的用户名\AppData\Local\AnthropicClaude\claude.exe --user-data-dir="C:\Users\%USERNAME%\AppData\Roaming\Claude-Personal"
 ```
 
 **工作账号：**
 ```
-C:\Users\你的用户名\AppData\Local\AnthropicClaude\claude.exe --user-data-dir="C:\Users\你的用户名\AppData\Roaming\Claude-Work"
+C:\Users\你的用户名\AppData\Local\AnthropicClaude\claude.exe --user-data-dir="C:\Users\%USERNAME%\AppData\Roaming\Claude-Work"
 ```
 
 建议将两个快捷方式分别命名为"Claude - 个人"和"Claude - 工作"，方便区分。
